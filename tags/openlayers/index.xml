@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>openlayers on 44digits</title>
+    <link>http://44digits.com/tags/openlayers/</link>
+    <description>Recent content in openlayers on 44digits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://44digits.com/tags/openlayers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Qubes GIS Installation Script</title>
+      <link>http://44digits.com/posts/20191103_qubesgis/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://44digits.com/posts/20191103_qubesgis/</guid>
+      <description>https://gist.github.com/44digits/e8452c4d3b796da29168f90e9edaf620  TL;DR: This bash script creates a desktop GIS AppVM Qube and a server AppVM Qube within QubeOS. All software is installed into a single TemplateVM. The software includes QGIS, PostGIS, GeoServer and other utilities. Firewall/iptables rules are setup to enable the desktop Qube to reach to server Qube. This script will work with both Debian and Fedora TemplateVMs.
+TS;WM: About a year ago I switched to QubesOS .</description>
+    </item>
+    
+  </channel>
+</rss>
