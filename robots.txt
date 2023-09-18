@@ -1,0 +1,4 @@
+Sitemap: http://44digits.com/sitemapindex.xml
+
+User-Agent: *
+Host: 44digits.com
