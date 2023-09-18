@@ -26,7 +26,6 @@ Thanks for reading!
 &nbsp;
 [<img src="/github_icon.png" alt="github" width="40"/>](https://github.com/44digits)
 &nbsp;
-[<img src="/mail_icon.png" alt="email" width="40"/>](mailto:blog@44digits.com)
-
 <a href="#" data-contact="YmxvZ0A0NGRpZ2l0cy5jb20=" onfocus="this.href = 'mailto:' + atob(this.dataset.contact)" >
-Send an email </a>
+<img src="/mail_icon.png" alt="email" width="40"/>
+</a>
