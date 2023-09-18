@@ -10,17 +10,19 @@ type = "text"
 +++
 <img src="/selfi.png" alt="Andrew" width="150"/>
 
-I'm Andrew, a spatial data engineer based in Southern California. Welcome to my
-personal blog, where I share intriguing projects I've been immersed in.
+I'm Andrew, a spatial data engineer based in Southern California.
+Welcome to my personal blog, where I share intriguing projects I've been working on.
 
-With degrees in Computer Science, Psychology, and International Development,
-I've tackled development projects in challenging environments including Afghanistan,
-Kenya, Pakistan, and Sri Lanka.  
-Over the past decade, I've focused on building solutions closer to home,
-harnessing geospatial technologies. I've honed my skills in Python,
-orchestrating spatial data workflows, and implementing cloud solutions in both
-Azure and AWS.
+For over a decade, I've focused on building geospatial solutions.
+My expertise spans various geospatial technologies, and I've honed my skills in Python,
+orchestrated spatial data workflows, and implemented geospatial cloud solutions in Azure and AWS.
+In a previous career, I worked on international development projects in
+challenging environments, including Afghanistan, Kenya, Pakistan, and Sri
+Lanka, providing data management services.
+I hold degrees in Computer Science, Psychology, and International Development.
+
 Thanks for reading!
+
 
 [<img src="/linkedin_icon.png" alt="linkedin" width="40"/>](https://www.linkedin.com/in/andrewross44/)
 &nbsp;
