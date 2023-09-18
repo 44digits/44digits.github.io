@@ -8,7 +8,7 @@ link = ""
 description = ""
 type = "text"
 +++
-<img src="/selfi.jpg" alt="Andrew" width="150"/>
+<img src="/selfi.png" alt="Andrew" width="150"/>
 
 I'm Andrew, a spatial data engineer based in Southern California. Welcome to my
 personal blog, where I share intriguing projects I've been immersed in.
