@@ -158,6 +158,8 @@ the IPs of the server, the proxy, and the IP needed to access the client.  For e
 
 <p>Log into the AWS client machine with: <code>ssh -i key/aws_key.pem ec2-user@&lt;public_ip_client&gt;</code><br>
 And execute the test with: <code>/tmp/networktest-run</code></p>
+<p>After experimenting with the tests the infrastructure on both Azure and AWS can be removed with:
+<code>terraform destroy</code></p>
 <h3>Results</h3>
 <p>The above script prints out the results.  For example:</p>
 <div class="code"><pre class="code literal-block"><span class="n">Networktest</span><span class="o">:</span>

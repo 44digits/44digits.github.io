@@ -85,6 +85,9 @@ resource_group_name = "RegionSpanningTest_azure_rg"
 Log into the AWS client machine with: `ssh -i key/aws_key.pem ec2-user@<public_ip_client>`<br />
 And execute the test with: `/tmp/networktest-run`
 
+After experimenting with the tests the infrastructure on both Azure and AWS can be removed with:
+```terraform destroy```
+
 ##Results##
 
 The above script prints out the results.  For example:
