@@ -15,19 +15,55 @@
  </url>
  <url>
   <loc>http://44digits.com/archive.html</loc>
-  <lastmod>2023-09-18T20:14:00Z</lastmod>
+  <lastmod>2023-09-18T23:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://44digits.com/categories/</loc>
-  <lastmod>2023-09-18T19:28:00Z</lastmod>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/categories/azure/</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/categories/bash/</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/categories/cat_azure/</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
  </url>
  <url>
   <loc>http://44digits.com/categories/cat_qubes/</loc>
   <lastmod>2023-09-18T19:28:00Z</lastmod>
  </url>
  <url>
+  <loc>http://44digits.com/categories/geoserver/</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://44digits.com/categories/gis-qgis-geoserver-qubes-bash-postgis/</loc>
   <lastmod>2023-09-18T19:28:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/categories/gis/</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/categories/postgis/</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/categories/qgis/</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/categories/qubes/</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/categories/terraform/</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
  </url>
  <url>
   <loc>http://44digits.com/galleries/</loc>
@@ -42,7 +78,15 @@
   <lastmod>2023-09-18T19:28:00Z</lastmod>
  </url>
  <url>
+  <loc>http://44digits.com/posts/how-fast-is-azures-network-peering/</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://44digits.com/posts/qubes-gis/</loc>
   <lastmod>2023-09-18T19:28:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/posts/tester/</loc>
+  <lastmod>2023-09-18T22:54:00Z</lastmod>
  </url>
 </urlset>

@@ -2,7 +2,7 @@
 title = "Qubes GIS Client & Server"
 slug = "qubes-gis"
 date = 2023-08-20
-tags = "gis qgis geoserver qubes bash postgis"
+tags = "gis,qgis,geoserver,qubes,bash,postgis"
 category = "qubes"
 #link = 
 description = "Installation script for QGIS, Geoserver and PostGIS"

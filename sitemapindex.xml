@@ -6,23 +6,59 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://44digits.com/categories/azure.xml</loc>
+  <lastmod>2023-09-18T23:27:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://44digits.com/categories/bash.xml</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://44digits.com/categories/cat_azure.xml</loc>
+  <lastmod>2023-09-18T23:27:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://44digits.com/categories/cat_qubes.xml</loc>
-  <lastmod>2023-09-18T19:36:00Z</lastmod>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://44digits.com/categories/geoserver.xml</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/gis-qgis-geoserver-qubes-bash-postgis.xml</loc>
   <lastmod>2023-09-18T19:36:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://44digits.com/categories/gis.xml</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://44digits.com/categories/postgis.xml</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://44digits.com/categories/qgis.xml</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://44digits.com/categories/qubes.xml</loc>
+  <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://44digits.com/categories/terraform.xml</loc>
+  <lastmod>2023-09-18T23:27:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://44digits.com/galleries/rss.xml</loc>
-  <lastmod>2023-09-18T20:14:00Z</lastmod>
+  <lastmod>2023-09-18T23:27:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/rss.xml</loc>
-  <lastmod>2023-09-18T19:36:00Z</lastmod>
+  <lastmod>2023-09-18T23:27:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/sitemap.xml</loc>
-  <lastmod>2023-09-18T20:14:00Z</lastmod>
+  <lastmod>2023-09-18T23:27:00Z</lastmod>
  </sitemap>
 </sitemapindex>
