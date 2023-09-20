@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://44digits.com/categories/azure.xml</loc>
-  <lastmod>2023-09-19T01:32:00Z</lastmod>
+  <lastmod>2023-09-20T01:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/bash.xml</loc>
@@ -15,7 +15,7 @@
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/cat_azure.xml</loc>
-  <lastmod>2023-09-19T01:32:00Z</lastmod>
+  <lastmod>2023-09-20T01:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/cat_qubes.xml</loc>
@@ -47,7 +47,7 @@
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/terraform.xml</loc>
-  <lastmod>2023-09-19T01:32:00Z</lastmod>
+  <lastmod>2023-09-20T01:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/galleries/rss.xml</loc>
@@ -55,10 +55,10 @@
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/rss.xml</loc>
-  <lastmod>2023-09-19T01:32:00Z</lastmod>
+  <lastmod>2023-09-20T01:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/sitemap.xml</loc>
-  <lastmod>2023-09-20T01:24:00Z</lastmod>
+  <lastmod>2023-09-20T01:38:00Z</lastmod>
  </sitemap>
 </sitemapindex>

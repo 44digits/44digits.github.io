@@ -101,14 +101,14 @@ A test was set up attempting to measure the speed improvement between two
 locations using virtual network peering.</p>
 <!--TEASER_END-->
 
-<h3>Archicture</h3>
+<h3>Architecture</h3>
 <p>This test looks at the latency of a web application on the US west cost as experienced by a user
 in India.
 Two virtual machines are used.
 The first, set up on the west coast, is a web server hosting a large ramdomly made file - <strong>the server</strong>.
 The second virtual machine is in India running a rever proxy pointing to the web server - <strong>the proxy</strong>.
 Both machines have virtual IPs and both machines are connected through a virtual network peer.</p>
-<p>Theoritically a <strong>user</strong> in India accessing the <em>server</em> directly, and downloading the large file should take longer
+<p>Theoritically a <strong>client</strong> in India accessing the <em>server</em> directly, and downloading the large file should take longer
 than accessing the <em>proxy</em>.
 <em>The user</em> in this experiement is a vm in India created in AWS.
 Using a different cloud company ensures that the user is independent of Microsoft's internal network.</p>
@@ -121,11 +121,16 @@ Using a different cloud company ensures that the user is independent of Microsof
 A "wrapper" bash script is also created which calls networktest with the URLs of the random file
 pointing directly to the server, and the URL through the reverse proxy.</p>
 <h3>Usage</h3>
-<p>The code is availabe here: <a href="https://github.com/44digits/CloudRegionSpanning/">https://github.com/44digits/CloudRegionSpanning/</a>
-Usage reqires the installation of the following software:
-* Terraform <a href="https://developer.hashicorp.com/terraform">https://developer.hashicorp.com/terraform</a>
-* Azure CLI: <a href="https://learn.microsoft.com/en-us/cli/azure/">https://learn.microsoft.com/en-us/cli/azure/</a>
-* AWS CLI: <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html">https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html</a></p>
+<p>The code is availabe here: <a href="https://github.com/44digits/CloudRegionSpanning/">https://github.com/44digits/CloudRegionSpanning/</a> <br>
+Usage reqires the installation of the following software:</p>
+<ul>
+<li>Terraform <a href="https://developer.hashicorp.com/terraform">https://developer.hashicorp.com/terraform</a>
+</li>
+<li>Azure CLI: <a href="https://learn.microsoft.com/en-us/cli/azure/">https://learn.microsoft.com/en-us/cli/azure/</a>
+</li>
+<li>AWS CLI: <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html">https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html</a>
+</li>
+</ul>
 <p>Once complete create the necessary AWS and Azure accounts.
 Environment variables will also need to be set for the Credentials.  Specifically:</p>
 <div class="code"><pre class="code literal-block">ARM_CLIENT_ID
