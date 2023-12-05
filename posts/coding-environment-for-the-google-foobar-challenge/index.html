@@ -3,7 +3,7 @@
 " lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Setting up a Python 2 coding enviornment with Jupyter Lab and Docker">
+<meta name="description" content="Setting up a Python 2 coding environment with Jupyter Lab and Docker">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Coding Environment for the Google Foobar Challenge | 44digits</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
@@ -17,7 +17,7 @@
 <meta property="og:site_name" content="44digits">
 <meta property="og:title" content="Coding Environment for the Google Foobar Challenge">
 <meta property="og:url" content="http://44digits.com/posts/coding-environment-for-the-google-foobar-challenge/">
-<meta property="og:description" content="Setting up a Python 2 coding enviornment with Jupyter Lab and Docker">
+<meta property="og:description" content="Setting up a Python 2 coding environment with Jupyter Lab and Docker">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2023-12-04T16:20:38-08:00">
 <meta property="article:tag" content="docker">
@@ -104,35 +104,44 @@ If you get an invite take it!</p>
 
 <p>Working on the Google Foobar Challenge is tough on many fronts.
 Only one of two coding languages can be used: Java or Python.
-Furthermore you are restricted toolder versions of these languages.
+Furthermore you are restricted to older versions of these languages.
 If you choose Python you need to use version 2.7 and with limited libraries.
 Creating a Python coding environment for this Challenge is not easy
 because Python 2 is no longer being maintained.
 It was
-"<a href="https://www.python.org/doc/sunset-python-2/">sunsetted</a>"
+<a href="https://www.python.org/doc/sunset-python-2/">sunsetted</a>
 back in 2020 and is no longer available in some
 <a href="https://wiki.debian.org/Python">Linux distributions</a>.</p>
 <p>Containerization provides a flexible and convenient way to isolate software
 that you want to keep separate from your main operating system.
 There are lots of coding tools for Python and
 <a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a>
-is my favorite, providing an excellent environment for prototyping code.
-The link at the start of this article is to a GIST containing my
-Dockerfile for creating a JupyterLab container with both Python3 and Python2 kernels.
+is my favorite, providing an excellent environment for prototyping code.</p>
+<ul>
+<li><a href="https://github.com/44digits/dockerfiles/tree/master/foobar">https://github.com/44digits/dockerfiles/tree/master/foobar</a></li>
+</ul>
+<p>The link above points to my
+<code>Dockerfile</code> for creating a JupyterLab container with both Python3 and Python2 kernels.
 <a href="https://github.com/pylint-dev/pylint"><code>pylint</code></a>
 and
 <a href="https://github.com/pycqa/flake8"><code>flake8</code></a>
 are also installed in case Google gives extra points for conforming to PEP8!</p>
 <p>Installation steps:</p>
 <ol>
-<li>Build the container with: <code>docker build -t foobar .</code>
+<li>
+<p>Build the container with:<br><code>docker build -t foobar .</code></p>
 </li>
-<li>Run the container with: <code>docker run --rm --name foobar -v ./notebooks:/code/notebooks -p 8888:8888 foobar</code>
+<li>
+<p>Run the container with:<br><code>docker run --rm --name foobar -v ./notebooks:/code/notebooks -p 8888:8888 foobar</code></p>
 </li>
-<li>Access JupyterLab in the container with a browser: <a href="http://localhost:8888/lab">http://localhost:8888/lab</a>
+<li>
+<p>Access JupyterLab in the container with a browser: <a href="http://localhost:8888/lab">http://localhost:8888/lab</a></p>
 </li>
 </ol>
-</div>
+<p>JupyterLab <code>.ipynb</code> notebooks are stored in the <code>notebooks</code> directory
+located in the same directory as the <code>Dockerfile</code>.
+Docker will create it if it does not exist.</p>
+    </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
 <li><a class="tag p-category" href="../../categories/docker/" rel="tag">docker</a></li>
             <li><a class="tag p-category" href="../../categories/foobar/" rel="tag">foobar</a></li>
