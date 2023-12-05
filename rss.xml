@@ -3,7 +3,15 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Wed, 20 Sep 2023 01:41:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How fast is Azure's Network Peering?</title><link>http://44digits.com/posts/how-fast-is-azures-network-peering/</link><dc:creator>Andrew</dc:creator><description>&lt;div&gt;&lt;p&gt;Azure offers a way to link virtual networks called
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 05 Dec 2023 00:34:34 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Coding Environment for the Google Foobar Challenge</title><link>http://44digits.com/posts/coding-environment-for-the-google-foobar-challenge/</link><dc:creator>Andrew</dc:creator><description>&lt;div&gt;&lt;p&gt;The Google Foobar Challenge is a series extremely interesting and fun coding problems.
+Lots has been written about the individual levels and problems.
+It seems to be a recruiting tool but there is no statement from Google about the
+Challenge and it's purpose.
+It it very well designed and covers a wide range of computer science tops.
+Earlier this year I received an invitation and have
+been slowly working through the levels.
+If you get an invite take it!&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://44digits.com/posts/coding-environment-for-the-google-foobar-challenge/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>docker</category><category>foobar</category><category>python</category><guid>http://44digits.com/posts/coding-environment-for-the-google-foobar-challenge/</guid><pubDate>Tue, 05 Dec 2023 00:20:38 GMT</pubDate></item><item><title>How fast is Azure's Network Peering?</title><link>http://44digits.com/posts/how-fast-is-azures-network-peering/</link><dc:creator>Andrew</dc:creator><description>&lt;div&gt;&lt;p&gt;Azure offers a way to link virtual networks called
 &lt;a href="https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview"&gt;Virtual Network Peering&lt;/a&gt;.
 These links utilize Microsft's backbone infrastructure.
 Traffic passing through a virtual network peer should therefore be faster than

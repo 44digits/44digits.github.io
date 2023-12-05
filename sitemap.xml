@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>http://44digits.com/archive.html</loc>
-  <lastmod>2023-09-20T01:24:00Z</lastmod>
+  <lastmod>2023-12-05T00:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://44digits.com/categories/</loc>
-  <lastmod>2023-09-18T20:59:00Z</lastmod>
+  <lastmod>2023-12-05T00:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://44digits.com/categories/azure/</loc>
@@ -34,8 +34,20 @@
   <lastmod>2023-09-18T20:59:00Z</lastmod>
  </url>
  <url>
+  <loc>http://44digits.com/categories/cat_python/</loc>
+  <lastmod>2023-12-05T00:32:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://44digits.com/categories/cat_qubes/</loc>
   <lastmod>2023-09-18T19:28:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/categories/docker/</loc>
+  <lastmod>2023-12-05T00:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/categories/foobar/</loc>
+  <lastmod>2023-12-05T00:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://44digits.com/categories/geoserver/</loc>
@@ -52,6 +64,10 @@
  <url>
   <loc>http://44digits.com/categories/postgis/</loc>
   <lastmod>2023-09-18T20:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/categories/python/</loc>
+  <lastmod>2023-12-05T00:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://44digits.com/categories/qgis/</loc>
@@ -76,6 +92,10 @@
  <url>
   <loc>http://44digits.com/pages/about/</loc>
   <lastmod>2023-09-18T19:28:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://44digits.com/posts/coding-environment-for-the-google-foobar-challenge/</loc>
+  <lastmod>2023-12-05T00:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://44digits.com/posts/how-fast-is-azures-network-peering/</loc>
