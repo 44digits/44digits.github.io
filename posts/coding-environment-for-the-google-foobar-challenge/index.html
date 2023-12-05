@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Setting up a Python 2 coding enviornment with Jupyter Lab and Docker">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coding Environment for the Google Foobar Challenge | 44digits</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
+<link rel="canonical" href="http://44digits.com/posts/coding-environment-for-the-google-foobar-challenge/">
+<link rel="icon" href="../../favicon.ico" sizes="40x40">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Andrew">
+<link rel="prev" href="../how-fast-is-azures-network-peering/" title="How fast is Azure's Network Peering?" type="text/html">
+<meta property="og:site_name" content="44digits">
+<meta property="og:title" content="Coding Environment for the Google Foobar Challenge">
+<meta property="og:url" content="http://44digits.com/posts/coding-environment-for-the-google-foobar-challenge/">
+<meta property="og:description" content="Setting up a Python 2 coding enviornment with Jupyter Lab and Docker">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-12-04T16:20:38-08:00">
+<meta property="article:tag" content="docker">
+<meta property="article:tag" content="foobar">
+<meta property="article:tag" content="python">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-expand-md static-top mb-4
+navbar-dark
+bg-primary
+"><div class="container">
+<!-- This keeps the margins nice -->
+        <a class="navbar-brand" href="../../">
+            <img src="../../files/logo.png" alt="44digits" id="logo" class="d-inline-block align-top"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a href="../../pages/about/index.html" class="nav-link">About</a>
+                </li>
+<li class="nav-item">
+<a href="../../archive.html" class="nav-link">Archive</a>
+                </li>
+<li class="nav-item">
+<a href="../../categories/" class="nav-link">Tags</a>
+                </li>
+<li class="nav-item">
+<a href="../../rss.xml" class="nav-link">RSS feed</a>
+
+                
+            </li>
+</ul>
+<ul class="navbar-nav navbar-right">
+<li class="nav-item">
+    <a href="index.md" id="sourcelink" class="nav-link">Source</a>
+    </li>
+
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+        
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Coding Environment for the Google Foobar Challenge</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Andrew
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2023-12-04T16:20:38-08:00" itemprop="datePublished" title="2023-12-04">2023-12-04</time></a>
+            </p>
+            
+        <p class="sourceline"><a href="index.md" class="sourcelink">Source</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <p>The Google Foobar Challenge is a series extremely interesting and fun coding problems.
+Lots has been written about the individual levels and problems.
+It seems to be a recruiting tool but there is no statement from Google about the
+Challenge and it's purpose.
+It it very well designed and covers a wide range of computer science tops.
+Earlier this year I received an invitation and have
+been slowly working through the levels.
+If you get an invite take it!</p>
+<!--TEASER_END-->
+
+<p>Working on the Google Foobar Challenge is tough on many fronts.
+Only one of two coding languages can be used: Java or Python.
+Furthermore you are restricted toolder versions of these languages.
+If you choose Python you need to use version 2.7 and with limited libraries.
+Creating a Python coding environment for this Challenge is not easy
+because Python 2 is no longer being maintained.
+It was
+"<a href="https://www.python.org/doc/sunset-python-2/">sunsetted</a>"
+back in 2020 and is no longer available in some
+<a href="https://wiki.debian.org/Python">Linux distributions</a>.</p>
+<p>Containerization provides a flexible and convenient way to isolate software
+that you want to keep separate from your main operating system.
+There are lots of coding tools for Python and
+<a href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a>
+is my favorite, providing an excellent environment for prototyping code.
+The link at the start of this article is to a GIST containing my
+Dockerfile for creating a JupyterLab container with both Python3 and Python2 kernels.
+<a href="https://github.com/pylint-dev/pylint"><code>pylint</code></a>
+and
+<a href="https://github.com/pycqa/flake8"><code>flake8</code></a>
+are also installed in case Google gives extra points for conforming to PEP8!</p>
+<p>Installation steps:</p>
+<ol>
+<li>Build the container with: <code>docker build -t foobar .</code>
+</li>
+<li>Run the container with: <code>docker run --rm --name foobar -v ./notebooks:/code/notebooks -p 8888:8888 foobar</code>
+</li>
+<li>Access JupyterLab in the container with a browser: <a href="http://localhost:8888/lab">http://localhost:8888/lab</a>
+</li>
+</ol>
+</div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/docker/" rel="tag">docker</a></li>
+            <li><a class="tag p-category" href="../../categories/foobar/" rel="tag">foobar</a></li>
+            <li><a class="tag p-category" href="../../categories/python/" rel="tag">python</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../how-fast-is-azures-network-peering/" rel="prev" title="How fast is Azure's Network Peering?">Previous post</a>
+            </li>
+        </ul></nav></aside></article><!--End of body content--><footer id="footer">
+            Contents © 2023 Andrew - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+            
+            
+        </footer>
+</div>
+</div>
+
+
+        <script src="../../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
+    </script><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-E442ZFNPV9"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E442ZFNPV9');
+</script>
+</body>
+</html>
