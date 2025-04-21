@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 21 Apr 2025 04:46:40 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Geocoding RSS Feeds</title><link>http://44digits.com/posts/geocoding-rss-feeds/</link><dc:creator>Andrew</dc:creator><description>&lt;div&gt;&lt;p&gt;San Diego was the first site settled by Europeans on the West Coast of the United States and is now the 8th largest city, with a population around 1.3 million.
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 21 Apr 2025 04:57:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Geocoding RSS Feeds</title><link>http://44digits.com/posts/geocoding-rss-feeds/</link><dc:creator>Andrew</dc:creator><description>&lt;div&gt;&lt;p&gt;San Diego was the first site settled by Europeans on the West Coast of the United States and is now the 8th largest city, with a population around 1.3 million.
 There is a lot of news, events and activites and a wide variety of news sources reporting on them.
 Can LLMs help to summarize all of this content and provide an overview what has happened and is happening around the city? 
 This project utilizes Google's Gemini models, and their features, to process San Diego news feeds for food and arts articles,

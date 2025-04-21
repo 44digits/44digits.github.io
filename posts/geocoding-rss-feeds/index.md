@@ -22,7 +22,8 @@ This 5 day program covers prompt engineering, embeddings, vector stores, agents,
 It is also a fantastic introducton to 
 [Google's genai python API](https://ai.google.dev/gemini-api/docs/quickstart?lang=python).
 
-The project notebook can be found here: https://www.kaggle.com/code/fourfourdigits/georeferencing-local-news
+The project notebook can be found here:
+[https://www.kaggle.com/code/fourfourdigits/georeferencing-local-news](https://www.kaggle.com/code/fourfourdigits/georeferencing-local-news)
 
 There are two phases to this project:
 
