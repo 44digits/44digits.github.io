@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://44digits.com/categories/azure.xml</loc>
-  <lastmod>2023-09-20T01:41:00Z</lastmod>
+  <lastmod>2025-04-21T02:06:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/bash.xml</loc>
@@ -15,11 +15,15 @@
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/cat_azure.xml</loc>
-  <lastmod>2023-09-20T01:41:00Z</lastmod>
+  <lastmod>2025-04-21T02:06:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://44digits.com/categories/cat_generative-ai.xml</loc>
+  <lastmod>2025-04-21T04:46:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/cat_python.xml</loc>
-  <lastmod>2023-12-05T00:32:00Z</lastmod>
+  <lastmod>2025-04-21T02:06:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/cat_qubes.xml</loc>
@@ -27,11 +31,19 @@
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/docker.xml</loc>
-  <lastmod>2023-12-05T00:32:00Z</lastmod>
+  <lastmod>2025-04-21T02:06:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/foobar.xml</loc>
-  <lastmod>2023-12-05T00:32:00Z</lastmod>
+  <lastmod>2025-04-21T02:06:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://44digits.com/categories/genai.xml</loc>
+  <lastmod>2025-04-21T04:46:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://44digits.com/categories/geocoding.xml</loc>
+  <lastmod>2025-04-21T04:46:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/geoserver.xml</loc>
@@ -46,12 +58,20 @@
   <lastmod>2023-09-18T20:59:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://44digits.com/categories/google-genai.xml</loc>
+  <lastmod>2025-04-21T04:46:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://44digits.com/categories/llm.xml</loc>
+  <lastmod>2025-04-21T04:45:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://44digits.com/categories/postgis.xml</loc>
   <lastmod>2023-09-18T20:59:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/python.xml</loc>
-  <lastmod>2023-12-05T00:32:00Z</lastmod>
+  <lastmod>2025-04-21T04:46:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/qgis.xml</loc>
@@ -63,18 +83,18 @@
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/categories/terraform.xml</loc>
-  <lastmod>2023-09-20T01:41:00Z</lastmod>
+  <lastmod>2025-04-21T02:06:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/galleries/rss.xml</loc>
-  <lastmod>2023-12-05T00:32:00Z</lastmod>
+  <lastmod>2025-04-21T02:06:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/rss.xml</loc>
-  <lastmod>2023-12-05T00:32:00Z</lastmod>
+  <lastmod>2025-04-21T04:46:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://44digits.com/sitemap.xml</loc>
-  <lastmod>2023-12-05T00:32:00Z</lastmod>
+  <lastmod>2025-04-21T04:46:00Z</lastmod>
  </sitemap>
 </sitemapindex>

@@ -1,7 +1,7 @@
 +++
 title = "Coding Environment for the Google Foobar Challenge"
 slug = "coding-environment-for-the-google-foobar-challenge"
-date = "2023-12-04 16:20:38 UTC-08:00"
+date = "2024-12-04 16:20:38 UTC-08:00"
 tags = "python,foobar,docker"
 category = "python"
 link = ""

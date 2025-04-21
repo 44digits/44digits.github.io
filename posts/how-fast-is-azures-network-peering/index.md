@@ -1,7 +1,7 @@
 +++
 title = "How fast is Azure's Network Peering?"
 slug = "how-fast-is-azures-network-peering"
-date = "2023-09-18 13:56:28 UTC-07:00"
+date = "2024-09-18 13:56:28 UTC-07:00"
 tags = "azure,terraform"
 category = "azure"
 link = ""
